@@ -1,0 +1,63 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #343ea7;
+    color: #5d15a4;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Estilos da seção intro */
+  .intro {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Estilos da seção de textos */
+  .textos {
+    display: flex;
+    color: #090909;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .textos .texto1,
+  .textos .texto2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #c1d8dd;
+    border-radius: 5px;
+  }
+  
+  .textos p {
+    line-height: 1.6;
+    color: #444;
+  }
